@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "io.github.devedroy.bookpedia.composeApp-debug-61:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "io.github.devedroy.bookpedia.composeApp-androidMain-63:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "io.github.devedroy.bookpedia.composeApp-debug-61:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "io.github.devedroy.bookpedia.composeApp-androidMain-63:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "io.github.devedroy.bookpedia.composeApp-debug-61:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "io.github.devedroy.bookpedia.composeApp-androidMain-63:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "io.github.devedroy.bookpedia.composeApp-debug-61:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "io.github.devedroy.bookpedia.composeApp-androidMain-63:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "io.github.devedroy.bookpedia.composeApp-debug-61:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "io.github.devedroy.bookpedia.composeApp-androidMain-63:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "io.github.devedroy.bookpedia.composeApp-debug-61:/drawable_ic_launcher_background.xml.flat",
+        "source": "io.github.devedroy.bookpedia.composeApp-androidMain-63:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "io.github.devedroy.bookpedia.composeApp-debug-61:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "io.github.devedroy.bookpedia.composeApp-androidMain-63:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "io.github.devedroy.bookpedia.composeApp-debug-61:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "io.github.devedroy.bookpedia.composeApp-androidMain-63:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "io.github.devedroy.bookpedia.composeApp-debug-61:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "io.github.devedroy.bookpedia.composeApp-androidMain-63:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "io.github.devedroy.bookpedia.composeApp-debug-61:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "io.github.devedroy.bookpedia.composeApp-androidMain-63:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "io.github.devedroy.bookpedia.composeApp-debug-61:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "io.github.devedroy.bookpedia.composeApp-androidMain-63:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "io.github.devedroy.bookpedia.composeApp-debug-61:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "io.github.devedroy.bookpedia.composeApp-androidMain-63:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "io.github.devedroy.bookpedia.composeApp-debug-61:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "io.github.devedroy.bookpedia.composeApp-androidMain-63:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "io.github.devedroy.bookpedia.composeApp-debug-61:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "io.github.devedroy.bookpedia.composeApp-androidMain-63:/mipmap-xxhdpi/ic_launcher_round.png"
+    }
+]
