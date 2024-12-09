@@ -5,7 +5,7 @@ import io.github.devedroy.bookpedia.core.presentation.UiText
 
 data class BookListState(
     val searchQuery: String = "Kotlin",
-    val searchResult: List<Book> = emptyList(),
+    val searchResults: List<Book> = emptyList(),
     val favouriteBooks: List<Book> = emptyList(),
     val isLoading: Boolean = false,
     val selectedTabIndex: Int = 0,
