@@ -44,11 +44,10 @@ import io.github.devedroy.bookpedia.core.presentation.DarkBlue
 import io.github.devedroy.bookpedia.core.presentation.DesertWhite
 import io.github.devedroy.bookpedia.core.presentation.SandYellow
 import org.jetbrains.compose.resources.stringResource
-import org.koin.compose.viewmodel.koinViewModel
 
 @Composable
 fun BookListScreenRoot(
-    viewModel: BookListViewModel = koinViewModel(),
+    viewModel: BookListViewModel,
     onBookClick: (Book) -> Unit
 ) {
 
@@ -80,6 +79,14 @@ fun BookListScreen(
 
     LaunchedEffect(state.searchResults) {
         searchResultsListState.animateScrollToItem(0)
+    }
+
+    LaunchedEffect(state.selectedTabIndex) {
+        pagerState.animateScrollToPage(state.selectedTabIndex)
+    }
+
+    LaunchedEffect(pagerState.currentPage) {
+        onAction(BookListAction.OnTabSelected(pagerState.currentPage))
     }
 
     Column(
@@ -196,7 +203,6 @@ fun BookListScreen(
                                         text = stringResource(Res.string.no_favourite_books),
                                         textAlign = TextAlign.Center,
                                         style = MaterialTheme.typography.headlineSmall,
-                                        color = MaterialTheme.colorScheme.error
                                     )
                                 } else {
                                     BookList(
